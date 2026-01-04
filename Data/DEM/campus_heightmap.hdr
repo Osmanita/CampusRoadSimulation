@@ -1,0 +1,14 @@
+ENVI
+description = {
+heightmap_mirror.raw}
+samples = 4097
+lines   = 4097
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 12
+interleave = bsq
+byte order = 0
+band names = {
+Band 1}
+default bands = {1}

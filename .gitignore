@@ -1,0 +1,56 @@
+########################################
+# Unity generated folders (NEVER commit)
+########################################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+########################################
+# IDE / Editor files
+########################################
+
+.vs/
+.vscode/
+.idea/
+
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+########################################
+# OS generated files
+########################################
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+########################################
+# Crash / backup files
+########################################
+
+*.stackdump
+*.log
+
+########################################
+# IMPORTANT: Data directory
+# (INTENTIONALLY versioned)
+########################################
+
+# DO NOT ignore Data/*
+# Includes:
+# - RAW heightmaps
+# - PNG visualizations
+# - HDR intermediate files
+# - Cropped satellite imagery
+
+# Data/  <-- deliberately tracked
