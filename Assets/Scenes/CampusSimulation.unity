@@ -447,6 +447,8 @@ GameObject:
   - component: {fileID: 714132286}
   - component: {fileID: 714132285}
   - component: {fileID: 714132284}
+  - component: {fileID: 714132287}
+  - component: {fileID: 714132288}
   m_Layer: 0
   m_Name: Campus Terrain
   m_TagString: Untagged
@@ -529,6 +531,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &714132287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714132283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5568646378ffe436eb6e48b6d4f48540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TerrainHeightSmoother
+  smoothIterations: 10
+  kernelSize: 9
+--- !u!114 &714132288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714132283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917ada99269d4419cbdc596eaf843238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AdvancedTerrainHeightSmoother
+  smoothIterations: 10
+  kernelSize: 11
+  heightSensitivity: 0.018
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
